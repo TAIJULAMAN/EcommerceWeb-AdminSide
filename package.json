@@ -1,10 +1,10 @@
 {
-  "name": "elstar",
+  "name": "ecommerce-web-admin",
   "private": true,
   "version": "2.0.1",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "start": "node api.js && vite",
+    "build": "node api.js && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
